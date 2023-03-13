@@ -148,9 +148,9 @@ app.ticker.add(() => {
       randomPosition(goldSprite)
       randomPosition(barrierSprite)
     }
-    bgSprite.tilePosition.x -= 4
-    goldSprite.x -= 4
-    barrierSprite.x -= 4
+    bgSprite.tilePosition.x -= 3
+    goldSprite.x -= 3
+    barrierSprite.x -= 3
     if (goldSprite.x < -30) {
       randomPosition(goldSprite)
     }
